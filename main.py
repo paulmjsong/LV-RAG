@@ -7,7 +7,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-HF_API_KEY = os.getenv("HF_API_KEY", "YOUR_HF_API_KEY")  # Set your Hugging Face API key here
+HF_API_KEY = "YOUR_HF_API_KEY"  # Set your Hugging Face API key here
 OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"  # Set your OpenAI API key here
 
 MODELS = {
