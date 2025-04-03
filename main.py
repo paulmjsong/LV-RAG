@@ -285,9 +285,4 @@ with gr.Blocks(title="LiberVance RAG", css=css, js=js, fill_height=True) as demo
         send_btn.click(chat, inputs=[txt, history], outputs=[history, chatbot])
         reset_btn.click(reset, outputs=[upload_state, history, chatbot])
 
-demo.launch(
-    server_name="0.0.0.0",
-    server_port=7860,
-    share=False,
-    favicon_path="",
-)
+demo.launch()
